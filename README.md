@@ -1,16 +1,33 @@
-# untitled
+# Map Diary - 日本地図旅行記録アプリ（Flutter）
 
-A new Flutter project.
+## 🗾 アプリ概要
+都道府県をタップして、自分が訪れた県を記録できる旅行記録アプリです。
+今後、旅行の写真や思い出、レビューも追加できる構想です。
 
-## Getting Started
+## 🚀 主な機能
+- SVG形式の日本地図に対するタップ判定
+- 選択済み県のハイライト表示
+- 今後：旅行記録の登録、県ごとの詳細ページ表示
 
-This project is a starting point for a Flutter application.
+## 🧱 使用技術
+| 技術        | 内容                         |
+|-------------|------------------------------|
+| Flutter     | フロントエンド開発           |
+| Dart        | メインプログラミング言語     |
+| CustomPaint | 地図描画、SVG処理             |
+| Provider（またはRiverpod） | 状態管理 |
 
-A few resources to get you started if this is your first Flutter project:
+## 🧠 工夫点・チャレンジ
+- SVGの各都道府県を個別にタップ可能にする処理
+- ページ遷移にGoRouterを導入予定
+- 拡張性を意識したディレクトリ分割中
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔮 今後の拡張
+- Djangoとの連携（REST API）
+- 写真・レビュー投稿機能
+- ユーザー認証、マップシェア機能
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 スクリーンショット
+（Flutterのエミュレータ画面やSVGタップ画像を貼ると印象◎）
+
+## 🏃‍♂️ 起動方法
